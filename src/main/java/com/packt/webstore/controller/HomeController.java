@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class HomeController {
-    @RequestMapping("/")
+    @RequestMapping("/welcome")
     public String welcome(Model model) {
         model.addAttribute("greeting", "Welcom to Web Store!");
         model.addAttribute("tagline", "The one and only amazing web store");

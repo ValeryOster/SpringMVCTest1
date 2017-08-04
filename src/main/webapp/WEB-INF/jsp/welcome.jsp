@@ -10,10 +10,14 @@
 
 </head>
 <body>
-    <div class="jumbotron">
-        <h1> ${greeting} </h1>
-        <p> ${tagline} </p>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1> ${greeting} </h1>
+            <p> ${tagline} </p>
+        </div>
     </div>
+
 
 </body>
 </html>
